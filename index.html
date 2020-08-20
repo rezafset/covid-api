@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+    <title>COVID -19 Tracker</title>
+</head>
+<body>   
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div id="upperPart" class="text-center">
+                    <h1 class="py-3 display-4">COVID-19 Worldwide Update</h1></br></br>
+                    <h2 id="country">World Wide</h2>
+                    <p id="showTime">time</p>
+                </div>
+            </div>
+        </div>
+        <div id="card-design" class="row py-5">
+            <div class="col-md-4">
+                <div class="card text-center ">
+                    <div class="card-body">
+                      <h3 class="card-title">Total Case</h3>
+                      <p id="case" class="card-text"></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card text-center sm-mt-3">
+                    <div class="card-body">
+                      <h3 class="card-title">Total Recovered</h3>
+                      <p id="recover" class="card-text"></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card text-center">
+                    <div class="card-body">
+                      <h3 class="card-title">Total Death</h3>
+                      <p id="death" class="card-text"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+         
+        <div class="row py-5">
+            <div class="col-12">
+                <div id="searchArea" class="text-center">
+                    <h4>Enter Country Name</h4>
+                    <input id="search" type="text" name="" class="text-center" placeholder="Enter Country"></br>
+                    <button id="submit" type="button" class="btn btn-primary mt-2">Search</button>
+                </div>
+            </div>
+        </div>
+
+        <footer class="text-center" id="footer">
+            <p>Developed By: <a href="https://www.facebook.com/reza.shah.17" target="_blank"><span>Reza Shah</span></a></p>
+        </footer>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
